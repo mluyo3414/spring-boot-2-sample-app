@@ -11,7 +11,6 @@ steps:
     type: git-clone
     repo: 'codefresh-contrib/spring-boot-2-sample-app'
     revision: master
-    git: github
   run_unit_tests:
     title: Compile/Unit test
     stage: test
